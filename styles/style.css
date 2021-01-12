@@ -8,3 +8,68 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+
+section {
+  background-color: #1c5380;
+  display: flex;
+  align-items:flex-end;
+  justify-content:space-around;
+  padding: 200px;
+  width: fill;
+}
+/* .topView {
+  padding : 0.7 in;
+  text-align: center;
+} */
+p{
+display: 
+
+}
+
+.container {
+display: flex;
+justify-content:center;
+align-items:center;
+flex-direction: column;
+border: 5px light grey solid;
+-ms-flex-direction: vertical;
+position: relative;
+left: 200px;
+padding: 50px;
+margin: 20px;
+width:500px;
+}
+div {
+  width: 300px;
+  border-style: solid;
+  padding: 50px;
+  margin: 20px;
+  border-color: white;
+  border-radius: 25px;
+}
+h1 {
+  color: #06365f;
+  /* display:flex;
+  align-items: center;
+  justify-content: center; */
+}
+main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+button {
+  background-color: #1c5380;
+}
+.badge{
+display: flex;
+align-content: center;
+justify-content: space-between;
+width: fit-content;
+text-align-last: center;
+}
+footer {
+  align-self: center;
+  text-align: center;
+}
